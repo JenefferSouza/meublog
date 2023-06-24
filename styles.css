@@ -5,10 +5,7 @@
 
 header, footer {
     color: #191970;
-}
-
-h1 {
-    margin-left: 15px;
+    padding: 10px;
 }
 
 hr {

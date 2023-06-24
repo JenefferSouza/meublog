@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    color: #191970;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #191970
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: #191970;
+    color: #C0C0C0;
+    border-radius: 5px;
+    width: auto;
+    font-size: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #483D8B;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.info-autor {
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #191970;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+}
+
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.nome-autor {
+    color: #191970;
+   font-size: 30px;
+}
+
+.biografia-autor {
+    text-align: center;
+}
+
+.redes-sociais-autor {}
